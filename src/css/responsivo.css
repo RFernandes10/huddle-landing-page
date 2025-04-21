@@ -1,0 +1,45 @@
+/* Ajustes para o layout mobile (telas de até 375px), conforme mobile-design.jpg */
+@media (max-width: 375px) {
+  body {
+    background-image: url("../images/bg-mobile.svg"); /* Fundo específico para mobile */
+  }
+
+  header {
+    padding: 1.5rem 2rem; /* Reduz o padding no mobile */
+  }
+
+  header img {
+    width: 120px; /* Reduz o tamanho do logo */
+  }
+
+  .hero {
+    flex-direction: column; /* Empilha ilustração e texto */
+    padding: 2rem;
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .hero-image {
+    margin-bottom: 2rem; /* Espaço entre ilustração e texto */
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem; /* Reduz o tamanho do título */
+  }
+
+  .hero-content p {
+    font-size: 0.9rem; /* Reduz o tamanho do parágrafo */
+  }
+
+  .hero-content button {
+    padding: 0.6rem 5rem; /* Botão mais largo no mobile */
+  }
+
+  footer {
+    text-align: center; /* Centraliza os ícones sociais */
+    padding: 2rem;
+  }
+
+  .social-links a {
+    margin: 0 0.5rem; /* Ajusta o espaçamento dos ícones */
+  }
+}
