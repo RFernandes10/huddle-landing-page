@@ -1,3 +1,6 @@
+![Demonstração do Projeto](https://github.com/RFernandes10/huddle-landing-page/blob/master/src/video/Animação-tela-projeto.gif?raw=true)
+
+
 # 🚀 Huddle Landing Page
 
 Landing page responsiva e acessível da plataforma fictícia **Huddle**, desenvolvida com **HTML** e **CSS**. Este projeto foi criado como parte do desafio **[Huddle Landing Page with Single Introductory Section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-single-introductory-section-B_2Wvxgi0)** do Frontend Mentor, com foco em **design limpo**, **acessibilidade** e **responsividade**.
