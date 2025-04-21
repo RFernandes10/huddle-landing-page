@@ -35,7 +35,9 @@ Criar uma landing page estática para a **Huddle**, utilizando apenas HTML e CSS
 ---
 
 ## 📁 Estrutura do Projeto
-{📦 huddle-landing-page
+
+```bash
+📦 huddle-landing-page
 ┣ 📂 design
 ┃ ┣ 📜 active-states.jpg
 ┃ ┣ 📜 desktop-design.jpg
@@ -60,4 +62,51 @@ Criar uma landing page estática para a **Huddle**, utilizando apenas HTML e CSS
 ┣ 📜 index.html
 ┣ 📜 README.md
 ┣ 📜 style-guide.md
-┗ 📜 .gitignore]
+┗ 📜 .gitignore
+
+---
+
+
+## 🛠️ Desafios e Soluções
+
+### Alternância de fundos (desktop/mobile)
+**Desafio:** Mudar imagem de fundo conforme a resolução.  
+**Solução:** Media query com `@media (max-width: 375px)` para alterar `background-image`.
+
+---
+
+### Ícones sociais sem SVGs fornecidos
+**Desafio:** Ícones não estavam incluídos no desafio.  
+**Solução:** Integração com CDN do Font Awesome e aplicação de estilo com hover seguindo o design.
+
+---
+
+### Acessibilidade no design
+**Desafio:** Garantir acessibilidade com HTML puro.  
+**Solução:** Tags semânticas (`<header>`, `<main>`, `<footer>`), atributos `alt`, contraste testado conforme WCAG (5.92:1).
+
+---
+
+## 📚 O Que Aprendi
+
+- **Responsividade** com media queries e Flexbox.
+- **Acessibilidade** com semântica e contraste de cores.
+- **Organização de arquivos** e pastas para projetos escaláveis.
+- **Documentação** com markdown claro e estruturado.
+
+---
+
+## 🤝 Créditos
+
+- 💡 **Desafio por:** [Frontend Mentor](https://www.frontendmentor.io/)
+- 🛠️ **Desenvolvido por:** [RFernandes10](https://github.com/RFernandes10)
+
+---
+
+## 🔗 Links Úteis
+
+- [🔗 Desafio no Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-single-introductory-section-B_2Wvxgi0)
+- [🔗 Repositório no GitHub](https://github.com/RFernandes10/huddle-landing-page)
+- [🔗 Google Fonts – Poppins e Open Sans](https://fonts.google.com/)
+- [🔗 Font Awesome – Ícones Sociais](https://fontawesome.com/)
+
