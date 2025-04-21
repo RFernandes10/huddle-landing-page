@@ -1,40 +1,49 @@
-# Coloquem informações do projeto aqui!
-
 Huddle Landing Page
-Descrição
-Este projeto é uma solução para o desafio "Huddle Landing Page with Single Introductory Section" do Frontend Mentor. O objetivo foi criar uma página inicial responsiva, com um layout que se adapta a telas de desktop e mobile, usando HTML e CSS. A página apresenta uma seção introdutória com uma ilustração, texto, um botão de registro e links para redes sociais no rodapé.
+Visão Geral
+Bem-vindo(a) à minha solução para o desafio Huddle Landing Page with Single Introductory Section do Frontend Mentor! Este projeto foi uma oportunidade incrível para praticar minhas habilidades em HTML e CSS, criando uma página inicial responsiva que se adapta a telas de desktop e mobile. Meu objetivo foi replicar o design fornecido, garantindo um layout limpo, acessível e visualmente atraente.
+Demonstração
+Aqui está uma demonstração rápida do projeto em ação:
 Resultado Final
-Desktop
-Mobile
+Desktop (1440px)
+Mobile (375px)
+Sobre o Projeto
+Este projeto faz parte do meu aprendizado em desenvolvimento front-end, realizado como parte de um curso. O desafio consistiu em construir uma página inicial para a Huddle, uma plataforma fictícia de construção de comunidades. A página apresenta:
+
+Um header com o logo da Huddle.
+Uma seção hero com uma ilustração, um título, um parágrafo e um botão de registro.
+Um footer com ícones sociais (Facebook, Twitter, Instagram).
+Layout responsivo, ajustando-se automaticamente entre desktop e mobile.
+
 Designs de Referência
 Desktop
 Mobile
-Pré-requisitos
-
-Um navegador web moderno (como Chrome, Firefox ou Edge).
-Não há dependências adicionais, pois o projeto usa apenas HTML e CSS.
-
 Como Rodar o Projeto
 
-Clone ou baixe este repositório para o seu computador.
-Abra o arquivo index.html em um navegador web.
-Para testar o layout responsivo, redimensione a janela do navegador ou use as ferramentas de desenvolvedor (tecla F12) para simular uma tela de 375px (layout mobile).
+Clone este repositório:
+git clone https://github.com/RFernandes10/huddle-landing-page.git
+
+
+Abra o arquivo index.html em um navegador web moderno (como Chrome, Firefox ou Edge).
+
+Para testar o layout responsivo, redimensione a janela do navegador ou use as ferramentas de desenvolvedor (tecla F12) para simular uma tela de 375px.
+
 
 Estrutura do Projeto
 huddle-landing-page/
 │
-├── design/                    # Pasta com imagens de referência do design
+├── design/                    # Imagens de referência do design
 │   ├── active-states.jpg      # Estados interativos (hover) dos elementos
 │   ├── desktop-design.jpg     # Layout de referência para desktop
 │   ├── desktop-preview.jpg    # Prévia do layout desktop
 │   ├── mobile-design.jpg      # Layout de referência para mobile
 │   └── identificando-elementos-visualmente.png  # Imagem com anotações visuais
 │
-├── screenshots/               # Pasta com capturas de tela do resultado final
+├── screenshots/               # Capturas de tela e vídeo do resultado final
 │   ├── desktop-result.png     # Resultado final no desktop
-│   └── mobile-result.png      # Resultado final no mobile
+│   ├── mobile-result.png      # Resultado final no mobile
+│   └── demo-video.mp4         # Vídeo demonstrativo do projeto
 │
-├── src/                       # Pasta com os arquivos do projeto
+├── src/                       # Arquivos do projeto
 │   ├── css/                   # Estilos CSS
 │   │   ├── reset.css          # Reset de estilos padrão do navegador
 │   │   ├── estilos.css        # Estilos principais (desktop)
@@ -46,44 +55,48 @@ huddle-landing-page/
 │       ├── illustration-mockups.svg  # Ilustração principal
 │       └── logo.svg           # Logo da Huddle
 │
-└── index.html                 # Arquivo HTML principal
+├── index.html                 # Arquivo HTML principal
+├── README.md                  # Documentação principal do projeto
+└── style-guide.md             # Guia de estilo do projeto
 
 Tecnologias Usadas
 
-HTML5: Estrutura da página.
-CSS3: Estilização e layout responsivo.
+HTML5: Estrutura semântica da página.
+CSS3: Estilização, layout responsivo com Flexbox e media queries.
 Google Fonts: Fontes Poppins (títulos) e Open Sans (corpo do texto).
 Font Awesome: Ícones sociais no rodapé.
 
 Desafios e Soluções
 
-Desafio: Garantir que o layout fosse responsivo, alternando entre os fundos bg-desktop.svg e bg-mobile.svg para desktop e mobile.
-Solução: Usei um media query (@media (max-width: 375px)) no arquivo responsivo.css para ajustar o fundo e reorganizar os elementos em uma coluna no mobile.
+Desafio: Criar um layout responsivo que alternasse entre os fundos bg-desktop.svg e bg-mobile.svg.
+Solução: Usei um media query (@media (max-width: 375px)) no responsivo.css para mudar o fundo e reorganizar os elementos em uma coluna no mobile.
 
 
-Desafio: Estilizar os ícones sociais para corresponder ao design, que não fornecia SVGs próprios.
-Solução: Usei o Font Awesome para os ícones e adicionei efeitos de hover com base no active-states.jpg.
+Desafio: Estilizar os ícones sociais sem SVGs fornecidos pelo desafio.
+Solução: Inteirei o Font Awesome via CDN e apliquei efeitos de hover baseados no active-states.jpg.
 
 
-Desafio: Garantir que as fontes Poppins e Open Sans fossem aplicadas corretamente e correspondessem ao design.
-Solução: Importei as fontes via Google Fonts e confirmei sua aplicação usando as ferramentas de desenvolvedor do navegador.
+Desafio: Garantir acessibilidade com contraste de cores e semântica.
+Solução: Usei tags semânticas (<header>, <main>, <footer>), atributos alt nas imagens e confirmei que o contraste entre texto branco e fundo violeta atende às diretrizes WCAG (proporção 5.92:1).
 
 
 
 O Que Aprendi
 
-Organização: Aprendi a importância de organizar os assets em pastas separadas (design e images), o que facilitou o desenvolvimento e a manutenção do projeto.
-Responsividade: Descobri como usar media queries para criar layouts responsivos, ajustando o fundo, o layout e os tamanhos de fonte para diferentes tamanhos de tela.
-Boas Práticas: Adicionei comentários ao código HTML e CSS para facilitar a manutenção, o que me ensinou a pensar na legibilidade e na colaboração em projetos futuros.
-Acessibilidade: Usei atributos alt nas imagens, aprendendo como isso melhora a acessibilidade e o SEO da página.
+Responsividade: Aprofundei meu conhecimento em media queries, ajustando o layout para diferentes tamanhos de tela de forma fluida.
+Acessibilidade: Aprendi a importância de usar atributos alt, tags semânticas e verificar o contraste de cores para tornar a página mais inclusiva.
+Organização: Estruturei o projeto em pastas (design, src, screenshots), o que facilitou o desenvolvimento e a manutenção.
+Documentação: Criei um README.md e um style-guide.md detalhados, reforçando a importância de documentar projetos para colaboração e avaliação.
 
 Créditos
 
 Desafio criado por Frontend Mentor.
-Desenvolvido por Roberto Fernandes Fonseca.
+Desenvolvido por RFernandes10.
 
 Links Úteis
 
 Desafio no Frontend Mentor
-Google Fonts (para Poppins e Open Sans)
-Font Awesome (para ícones sociais)
+Repositório no GitHub
+Google Fonts (Poppins e Open Sans)
+Font Awesome (ícones sociais)
+
